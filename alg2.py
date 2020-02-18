@@ -60,6 +60,7 @@ def merge_sort(array, left, right):
         merge_sort(array, left, m)
         merge_sort(array, m + 1, right)
         temp_comps, temp_swaps = merge(array, left, m, right)
+        print(array)
         comps += temp_comps
         swaps += temp_swaps
     return array, comps, swaps
