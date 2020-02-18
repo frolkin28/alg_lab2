@@ -1,0 +1,8 @@
+language: python
+matrix:
+    include:
+        - python: 3.7
+          dist: xenial
+          sudo: true
+script:
+  - python3.7 -m unittest -v test_alg2.py

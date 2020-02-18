@@ -3,6 +3,8 @@
 
 .idea
 __pycache__/
+main.py
+results.txt
 
 # Editor-based Rest Client
 .idea/httpRequests
